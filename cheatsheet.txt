@@ -27,3 +27,9 @@ git status //
 git add . // adds new files and changes
 git commit -m "First Commit" // commit files once this is done, you then can push to your origin master. Cmd above - 
    -> git push -u origin master
+
+
+
+If you're fetching...
+git fetch -u origin master // Fetches to your master origin
+git pull // this will pull it into your local
