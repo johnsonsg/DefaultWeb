@@ -9,6 +9,8 @@ git config --global core.editor code
 
 Always add git to project by: git init
 
+
+
 * Commands *
 
 cp // copy
@@ -35,7 +37,23 @@ git fetch -u origin master // Fetches to your master origin
 git pull // this will pull it into your local
 
 If you are Pushing to gitbhub or bitbucket etc. 
-git add .
+git add . // you can also do:
+   git add {filename}  // that will add that file specifically
+
+
 git commit -m "comment"
 git status // to make sure it was commited.
 git push //
+
+git status -s // this shows only files added in all directories
+      Note: on terminal you will see and 'A' or 'M' that means added or modified.
+
+
+vim details.html // vim {filename}  opens file in command line.  just like cat
+   ->  'cat' opens file at end of code  & 'vim' opens at and allows you to edit the file on windows machine
+         and 'pico' or 'nano' on mac terminal.
+
+   :q // quits and goes back to command line
+   :wq // writes the edits, saves and quits.
+
+
