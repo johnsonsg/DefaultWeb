@@ -33,3 +33,9 @@ git commit -m "First Commit" // commit files once this is done, you then can pus
 If you're fetching...
 git fetch -u origin master // Fetches to your master origin
 git pull // this will pull it into your local
+
+If you are Pushing to gitbhub or bitbucket etc. 
+git add .
+git commit -m "comment"
+git status // to make sure it was commited.
+git push //
