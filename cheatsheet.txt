@@ -1,0 +1,29 @@
+Git Cheat Sheet
+
+
+
+$ code {filename.html}   // Need to figure this out, but this is Windows, on Mac,use $ cat
+git config --global -e  // Shows how Git is installed Opens gitconfig
+git config --global core.editor code
+
+
+Always add git to project by: git init
+
+* Commands *
+
+cp // copy
+ls -al //  lets you see hidden files
+git remote -v // 'v' means verbose
+
+git fetch --all // get everything
+git checkout {branch name}  // changes to that branch
+
+// Push to github repo
+git remote add origin https://github.com/johnsonsg/GitTraining.git
+git remote -v // shows your verbose of (fetch) and (push)
+git push -u origin master  // this will give you an error if you have not did a committ yet
+
+git status // 
+git add . // adds new files and changes
+git commit -m "First Commit" // commit files once this is done, you then can push to your origin master. Cmd above - 
+   -> git push -u origin master
