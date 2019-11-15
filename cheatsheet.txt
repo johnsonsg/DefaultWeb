@@ -57,3 +57,9 @@ vim details.html // vim {filename}  opens file in command line.  just like cat
    :wq // writes the edits, saves and quits.
 
 
+NOTE: Before you commit, you probably wont to know what you are committing, so its good to see a quick
+diff.
+   git diff --cached {filename}
+
+Pull from github
+git pull origin master // this pulls any changes made into your master branch on your local machine
