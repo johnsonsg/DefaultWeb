@@ -1,0 +1,14 @@
+Diff Tool and Merge Tool Notes:
+
+git config --global --get diff.tool  // to show what tool you are using
+git config --global diff.tool default-difftool // Assigning a diff tool
+
+
+To bring up Editor:
+git config --global -e 
+
+git difftool {filename.html} // shows in editor
+
+git diff {filename.html}  // shows what edits were made.
+
+git difftool HEAD // shows all changes and after configuration in git config, it will open up the difference to view

@@ -1,5 +1,7 @@
 Git Cheat Sheet
 
+To bring up Editor:
+git config --global -e 
 
 
 $ code {filename.html}   // Need to figure this out, but this is Windows, on Mac,use $ cat
@@ -40,7 +42,6 @@ If you are Pushing to gitbhub or bitbucket etc.
 git add . // you can also do:
    git add {filename}  // that will add that file specifically
 
-
 git commit -m "comment"
 git status // to make sure it was commited.
 git push //
@@ -63,3 +64,9 @@ diff.
 
 Pull from github
 git pull origin master // this pulls any changes made into your master branch on your local machine
+
+
+View History: Log/Shows
+git log // shows what was doine
+git log --oneline // shows all commits done, but less details.
+git show {commit log number} will show you the commit you did
