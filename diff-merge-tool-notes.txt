@@ -1,8 +1,12 @@
 Diff Tool and Merge Tool Notes:
 
+to see config settings:
+git config --global --list
+
 git config --global --get diff.tool  // to show what tool you are using
 git config --global diff.tool default-difftool // Assigning a diff tool
 
+look at addition in config file lines 20-25... were added
 
 To bring up Editor:
 git config --global -e 
@@ -12,3 +16,12 @@ git difftool {filename.html} // shows in editor
 git diff {filename.html}  // shows what edits were made.
 
 git difftool HEAD // shows all changes and after configuration in git config, it will open up the difference to view
+
+
+
+// Merge - Setting up in vscode. //
+* Setup
+git config --global merge.tool code
+git config --global mergetool.code.cmd "code --wait $MERGED"
+git config --global mergetool.prompt false
+git config --global mergetool.keepbackup false
